@@ -1,4 +1,25 @@
 * 
 {
-    font-family: "STIX Two Text", Verdana, sans-serif;
+    font-family: "Atkinson Hyperlegible", Verdana, sans-serif;
+}
+
+img.front
+{
+    width: 30vw;
+    height: auto;
+    border-color: thistle;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 5px;
+}
+
+img.rotate90
+{
+/*     -webkit-transform:rotate(90deg); /* Chrome, Safari, Opera */
+    /* -moz-transform: rotate(90deg); */
+    /* -ms-transform: rotate(90deg); */
+    /* -o-transform: rotate(90deg); */
+    /* transform: rotate(90deg);   Standard syntax */
+    height: 30vw;
+    width: auto;
 }
