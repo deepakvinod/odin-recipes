@@ -14,6 +14,16 @@ img.front
     border-radius: 5px;
 }
 
+img.recimg
+{
+  width: 30vw;
+  height: auto;
+  border-color: goldenrod;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 5px;
+}
+
 img.rotate90
 {
 /*     -webkit-transform:rotate(90deg); /* Chrome, Safari, Opera */
