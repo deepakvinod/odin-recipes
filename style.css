@@ -4,9 +4,14 @@
     background-color: cornsilk;
 }
 
+banner
+{
+    width: 100vw;
+}
+
 img.front
 {
-    width: 30vw;
+    width: 30%;
     height: auto;
     border-color: thistle;
     border-style: solid;
