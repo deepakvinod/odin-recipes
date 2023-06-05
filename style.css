@@ -11,7 +11,7 @@ banner
 
 img.front
 {
-    width: 30%;
+    width: 30vw;
     height: auto;
     border-color: thistle;
     border-style: solid;
@@ -35,7 +35,7 @@ img.rotate90
     /* -moz-transform: rotate(90deg); */
     /* -ms-transform: rotate(90deg); */
     /* -o-transform: rotate(90deg); */
-    /* transform: rotate(90deg);   Standard syntax */
+    /* transform: rotate(90deg);    */
     height: 30vw;
     width: auto;
 }
