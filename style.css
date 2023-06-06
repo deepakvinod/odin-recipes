@@ -4,9 +4,12 @@
     background-color: cornsilk;
 }
 
-banner
+div.banner
 {
-    width: 100vw;
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul.relist
@@ -24,12 +27,13 @@ ul.relist li
 
 img.front
 {
-    width: 30vw;
+    width: 25vw;
     height: auto;
     border-color: thistle;
     border-style: solid;
     border-width: thick;
     border-radius: 5px;
+    flex: 0.3;
 }
 
 img.recimg
@@ -42,13 +46,13 @@ img.recimg
   border-radius: 5px;
 }
 
-img.rotate90
+img.front.rotate90
 {
-/*     -webkit-transform:rotate(90deg); /* Chrome, Safari, Opera */
-    /* -moz-transform: rotate(90deg); */
-    /* -ms-transform: rotate(90deg); */
-    /* -o-transform: rotate(90deg); */
-    /* transform: rotate(90deg);    */
-    height: 30vw;
-    width: auto;
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    height: 25vw;
+    width: auto;   
 }
