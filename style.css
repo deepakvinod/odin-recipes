@@ -8,7 +8,7 @@ div.banner
 {
     width: 85vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -27,13 +27,15 @@ ul.relist li
 
 img.front
 {
-    width: 25vw;
+    width: 28vw;
     height: auto;
-    border-color: thistle;
-    border-style: solid;
-    border-width: thick;
+    /* border-color: thistle; */
+    /* border-style: solid; */
+    /* border-width: thick; */
     border-radius: 5px;
-    flex: 0.3;
+    flex: 0 1 auto;
+    /* margin: 0px; */
+    padding-right: 10px;
 }
 
 img.recimg
@@ -53,6 +55,7 @@ img.front.rotate90
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
-    height: 25vw;
-    width: auto;   
+    width: 18.6vw;
+    padding-bottom: 10px;
+    padding-right: 0;   
 }
