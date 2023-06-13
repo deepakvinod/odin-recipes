@@ -152,13 +152,42 @@ ul.metrics
     text-align: justify;
 }
 
-img.recimg
+.instructions
 {
-  width: 30vw;
-  height: auto;
-  border-color: goldenrod;
-  border-style: solid;
-  border-width: thick;
-  border-radius: 5px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+    align-items: start;
+    align-content: flex-start;
 }
 
+.ingredients
+{
+    max-width: 300px;
+    flex: 1 1 100px;
+}
+
+.ingredients ul
+{
+    padding-left: 15px;
+    list-style-position: outside;
+}
+
+.steps
+{   
+    /* min-width: 500px; */
+    flex: 1 1 500px;
+    text-align: justify;
+}
+
+.steps ol
+{
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.steps li::marker
+{
+    font-weight: bold;
+}
