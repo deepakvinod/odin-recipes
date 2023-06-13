@@ -37,7 +37,7 @@ body
 
 h1, h2, h3, h4, h5, h6
 {
-    color:chocolate;
+    color:firebrick;
 }
 
 .pic-banner
@@ -52,23 +52,20 @@ h1, h2, h3, h4, h5, h6
 
 .front
 {
-    border: 5px rgb(250, 219, 141) solid;
+    border: 5px lightcoral solid;
     border-radius: 5px;
     padding: 5px;
     flex: 0 1 28%;
     text-align: center;
-}
-
-.front a
-{
-    color: firebrick;
     font-size: medium;
-    text-decoration: none;
+    font-style: italic;
+    color: firebrick ;
 }
 
-.front > img
+.front  img
 {
     width: 100%;
+    border-radius: 10px;
 }
 
 img.recimg
