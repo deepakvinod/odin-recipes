@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6
 {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: stretch;
     flex-wrap: wrap;
     align-content: space-between;
@@ -56,8 +56,9 @@ h1, h2, h3, h4, h5, h6
 {
     border: 5px lightcoral solid;
     border-radius: 5px;
-    padding: 5px;
+    padding: 8px;
     flex: 0 1 28%;
+    max-width: 200px;
     text-align: center;
     font-size: medium;
     font-style: italic;
