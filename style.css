@@ -2,12 +2,14 @@
     font-family: "Atkinson Hyperlegible";
     src: url(/fonts/AH/AtkinsonHyperlegible-Regular.ttf) format("truetype");
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Atkinson Hyperlegible";
     src: url(/fonts/AH/AtkinsonHyperlegible-Italic.ttf) format("truetype");
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -15,6 +17,7 @@
     src: url(/fonts/AH/AtkinsonHyperlegible-Bold.ttf) format("truetype");
     font-style: normal;
     font-weight: bold;
+    font-display: swap;
 }
 
 @font-face {
@@ -22,6 +25,7 @@
     src: url(/fonts/AH/AtkinsonHyperlegible-BoldItalic.ttf) format("truetype");
     font-style: italic;
     font-weight: bold;
+    font-display: swap;
 }
 
 
