@@ -29,6 +29,11 @@
 }
 
 
+*
+{
+    /* border: 2px dotted pink; */
+}
+
 body 
 {
     font-family: "Atkinson Hyperlegible", system-ui, sans-serif;
@@ -97,6 +102,22 @@ h1, h2, h3, h4, h5, h6
     color: khaki;
     font-size: large;
     font-weight: bold;
+}
+
+ul.metrics
+{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.metrics > li
+{
+    flex: 0 1 auto;
+
 }
 
 img.recimg
