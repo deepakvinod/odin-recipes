@@ -79,6 +79,22 @@ h1, h2, h3, h4, h5, h6
     border-radius: 10px;
 }
 
+.home-button
+{
+    position: absolute; 
+    right: 20px;
+    background-color: indianred;
+    padding: 5px;
+}
+
+.home-button > a
+{
+    text-decoration: none;
+    color: khaki;
+    font-size: large;
+    font-weight: bold;
+}
+
 img.recimg
 {
   width: 30vw;
