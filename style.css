@@ -3,12 +3,15 @@ body
     font-family: "Atkinson Hyperlegible", Verdana, sans-serif;
     background-color: cornsilk;
     box-sizing: border-box;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
 }
 
 ul.relist
 {
     display: flex;
-    width: 100vw;
+    width: 100%;
 }
 
 ul.relist li
