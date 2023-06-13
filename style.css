@@ -1,3 +1,30 @@
+@font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: url(/fonts/AH/AtkinsonHyperlegible-Regular.ttf) format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: url(/fonts/AH/AtkinsonHyperlegible-Italic.ttf) format("truetype");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: url(/fonts/AH/AtkinsonHyperlegible-Bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: url(/fonts/AH/AtkinsonHyperlegible-BoldItalic.ttf) format("truetype");
+    font-style: italic;
+    font-weight: bold;
+}
+
+
 body 
 {
     font-family: "Atkinson Hyperlegible", system-ui, sans-serif;
@@ -36,6 +63,7 @@ h1, h2, h3, h4, h5, h6
 {
     color: firebrick;
     font-size: medium;
+    text-decoration: none;
 }
 
 .front > img
