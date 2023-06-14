@@ -9,3 +9,5 @@ I hope to use what is built here as a template for my own recipe store/book in t
 2. Familiarity with basic git commands - add, commit, log, push and so on.
 3. GitHub knowledge - create repo, push to it and use the built in web publishing capabilities.
 4. Basic HTML - boilerplate, basic structure, tags for formatting text, lists etc., hyperlinks and embedding images.
+
+The site can be found at:  https://deepakvinod.github.io/odin-recipes/
